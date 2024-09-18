@@ -1,0 +1,94 @@
+---
+title: "simple_quarto_website"
+format: html
+bibliography: reference.bib
+---
+
+This is a Quarto website.
+
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+
+# Main Section
+
+### Ordered List
+
+1. First item
+2. Second item
+3. Third item
+
+### Unordered List
+- Item A
+- Item B
+- Item C
+
+## Subsection 1
+:::: {.columns}
+::: {.column width="50%"}
+### Column 1
+Lorem ipsum odor amet, consectetuer adipiscing elit. Vivamus est dictumst lacus suspendisse diam. Elit nunc justo tempus phasellus a condimentum varius. Venenatis himenaeos vel purus elementum nisl dignissim velit. Mattis ex in torquent tortor non vehicula. Viverra aliquam maximus a; nullam ante enim bibendum ipsum nascetur. Vel massa velit natoque lobortis iaculis. Iaculis morbi vestibulum non sem ullamcorper magnis libero cubilia. Dolor dictum mollis elementum ante hendrerit.
+:::
+
+::: {.column width="50%"}
+### Column 2
+Lorem ipsum odor amet, consectetuer adipiscing elit. Vivamus est dictumst lacus suspendisse diam. Elit nunc justo tempus phasellus a condimentum varius. Venenatis himenaeos vel purus elementum nisl dignissim velit. Mattis ex in torquent tortor non vehicula. Viverra aliquam maximus a; nullam ante enim bibendum ipsum nascetur. Vel massa velit natoque lobortis iaculis. Iaculis morbi vestibulum non sem ullamcorper magnis libero cubilia. Dolor dictum mollis elementum ante hendrerit.
+
+:::
+::::
+
+### Sub-subsection 1.1
+
+### Table
+
+| Syntax | Description |
+| ----------- | ----------- |
+| Header | Title |
+| Paragraph | Text |
+
+### Math Equation 
+
+* This is an example of a bulleted list with math 
+* Here is an in-line math equation $f(x)=\frac{e^{x^2}}{2}$
+
+$$g(x)=x^n \rightarrow \frac{\partial g}{\partial x}=n x^{n-1}$$
+
+### Quote
+> "The only limit to our realization of tomorrow is our doubts of today." – Franklin D. Roosevelt
+
+
+### Footnote
+
+Here's a sentence with a footnote. [^1]
+
+### Images
+::: {layout-ncol=2}
+
+![](images/cat.png){fig-align="left" width="6in"}
+
+![](images/cats.png){fig-align="left" width="6in"}
+
+:::
+
+### Embedded Video
+{{< video https://www.youtube.com/watch?v=I6T0Y8YRyKk&t=4s width="800" height="500" >}}
+
+### Mermaid diagram
+```{mermaid}
+%%| fig-cap: "A Mermaid diagram"
+%%| code-fold: false
+flowchart LR
+   A[Start] --> B[Step 1];
+   B --> C{Decision};
+   C -->|Yes| D[Step 2];
+   C -->|No| E[Step 3];
+```
+
+### Citation from `.bib` file
+According to the research [@wilson1988ndebele], the findings suggest...
+
+
+
+[^1]: This is the footnote.
+
+
+
+

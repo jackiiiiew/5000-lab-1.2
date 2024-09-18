@@ -1,0 +1,86 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "about.html#header-2",
+    "href": "about.html#header-2",
+    "title": "About",
+    "section": "Header 2",
+    "text": "Header 2\nCurae in egestas dolor diam laoreet neque. Taciti vulputate orci dolor sollicitudin cubilia litora nec. Consequat faucibus et ipsum ante himenaeos conubia. Dapibus vitae sollicitudin vulputate diam metus blandit curae praesent ornare. Mollis et morbi mi hendrerit nunc consectetur nisl. Amet turpis vel id tempor mauris urna aliquam. Risus justo sollicitudin habitant est mattis scelerisque.\n\nHeader 3\nAc tortor nulla morbi; potenti accumsan ultricies porta. Tincidunt iaculis potenti tempor nulla bibendum lectus senectus. Vel eu massa cursus platea parturient felis tincidunt placerat. Ullamcorper ligula dis nascetur placerat lectus; vestibulum sed. Non ornare habitant, accumsan eros cubilia dignissim. Aliquet viverra primis inceptos conubia maximus. Placerat morbi ornare ullamcorper nulla non sed consectetur enim nascetur. Platea lobortis aliquam lobortis himenaeos cras risus ex interdum dis. Mauris vel sapien purus potenti mus elit platea platea.\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt. subplots (\nsubplot_kw = {'projection': 'polar'}\n)\nax.plot (theta, r) \nax.set_rticks ([0.5, 1, 1.5, 2]) \nax.grid(True)\nplt.show()"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "simple_quarto_website",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "index.html#subsection-1",
+    "href": "index.html#subsection-1",
+    "title": "simple_quarto_website",
+    "section": "Subsection 1",
+    "text": "Subsection 1\n\n\n\nColumn 1\nLorem ipsum odor amet, consectetuer adipiscing elit. Vivamus est dictumst lacus suspendisse diam. Elit nunc justo tempus phasellus a condimentum varius. Venenatis himenaeos vel purus elementum nisl dignissim velit. Mattis ex in torquent tortor non vehicula. Viverra aliquam maximus a; nullam ante enim bibendum ipsum nascetur. Vel massa velit natoque lobortis iaculis. Iaculis morbi vestibulum non sem ullamcorper magnis libero cubilia. Dolor dictum mollis elementum ante hendrerit.\n\n\n\nColumn 2\nLorem ipsum odor amet, consectetuer adipiscing elit. Vivamus est dictumst lacus suspendisse diam. Elit nunc justo tempus phasellus a condimentum varius. Venenatis himenaeos vel purus elementum nisl dignissim velit. Mattis ex in torquent tortor non vehicula. Viverra aliquam maximus a; nullam ante enim bibendum ipsum nascetur. Vel massa velit natoque lobortis iaculis. Iaculis morbi vestibulum non sem ullamcorper magnis libero cubilia. Dolor dictum mollis elementum ante hendrerit.\n\n\n\n\nSub-subsection 1.1\n\n\nTable\n\n\n\nSyntax\nDescription\n\n\n\n\nHeader\nTitle\n\n\nParagraph\nText\n\n\n\n\n\nMath Equation\n\nThis is an example of a bulleted list with math\nHere is an in-line math equation \\(f(x)=\\frac{e^{x^2}}{2}\\)\n\n\\[g(x)=x^n \\rightarrow \\frac{\\partial g}{\\partial x}=n x^{n-1}\\]\n\n\nQuote\n\n“The only limit to our realization of tomorrow is our doubts of today.” – Franklin D. Roosevelt\n\n\n\nFootnote\nHere’s a sentence with a footnote. 1\n\n\nImages\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEmbedded Video\n\n\n\nMermaid diagram\n\n\n\n\n\nflowchart LR\n   A[Start] --&gt; B[Step 1];\n   B --&gt; C{Decision};\n   C --&gt;|Yes| D[Step 2];\n   C --&gt;|No| E[Step 3];\n\n\n A Mermaid diagram \n\n\n\n\n\nCitation from .bib file\nAccording to the research (Wilson 1988), the findings suggest…"
+  },
+  {
+    "objectID": "index.html#footnotes",
+    "href": "index.html#footnotes",
+    "title": "simple_quarto_website",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nThis is the footnote.↩︎"
+  },
+  {
+    "objectID": "slides/slides.html#getting-up",
+    "href": "slides/slides.html#getting-up",
+    "title": "Simple Quarto Presentation",
+    "section": "Getting up",
+    "text": "Getting up\n\nTurn off alarm\nGet out of bed"
+  },
+  {
+    "objectID": "slides/slides.html#breakfast",
+    "href": "slides/slides.html#breakfast",
+    "title": "Simple Quarto Presentation",
+    "section": "Breakfast",
+    "text": "Breakfast\n\nDrink coffee"
+  },
+  {
+    "objectID": "slides/slides.html#dinner",
+    "href": "slides/slides.html#dinner",
+    "title": "Simple Quarto Presentation",
+    "section": "Dinner",
+    "text": "Dinner\n\nEat spaghetti\nDrink milktea"
+  },
+  {
+    "objectID": "slides/slides.html#going-to-sleep",
+    "href": "slides/slides.html#going-to-sleep",
+    "title": "Simple Quarto Presentation",
+    "section": "Going to sleep",
+    "text": "Going to sleep\n\nGet in bed\nCount sheep"
+  },
+  {
+    "objectID": "slides/slides.html#citation",
+    "href": "slides/slides.html#citation",
+    "title": "Simple Quarto Presentation",
+    "section": "Citation",
+    "text": "Citation\nAccording to the research (Wilson 1988), the findings suggest…"
+  },
+  {
+    "objectID": "slides/slides.html#images",
+    "href": "slides/slides.html#images",
+    "title": "Simple Quarto Presentation",
+    "section": "Images",
+    "text": "Images"
+  },
+  {
+    "objectID": "slides/slides.html#plot-with-code-folding",
+    "href": "slides/slides.html#plot-with-code-folding",
+    "title": "Simple Quarto Presentation",
+    "section": "Plot with Code Folding",
+    "text": "Plot with Code Folding\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\n# Generate data for plotting\nx = np.linspace(0, 10, 100)\ny = np.sin(x)\n\n# Plot the sine wave\nplt.plot(x, y)\nplt.title('Sine Wave')\nplt.xlabel('x')\nplt.ylabel('sin(x)')\nplt.show()\n\n\n\n\nSine Wave Plot\n\n\n\n\n\n\nWilson, Judith. 1988. “Ndebele: The Art of an African Tribe.” JSTOR."
+  }
+]
